@@ -1,0 +1,27 @@
+.bgGradient {
+  background-color: #eee;
+  background: repeating-linear-gradient(-70deg, #eea81b, #eea81b 50px, #feb82b 5px, #feb82b 180px);
+}
+
+.bgGradientBlack {
+  background-color: #111;
+  background: repeating-linear-gradient(-70deg, #111, #111 50px, #161616 5px, #161616 180px);
+}
+
+.bgCircles {
+  background-color: #e6e6e6;
+  background-image: linear-gradient(30deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff),
+    linear-gradient(150deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff),
+    linear-gradient(30deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff),
+    linear-gradient(150deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff),
+    linear-gradient(60deg, #eee 25%, transparent 25.5%, transparent 75%, #eee 75%, #eee),
+    linear-gradient(60deg, #eee 25%, transparent 25.5%, transparent 75%, #eee 75%, #eee);
+  background-size: 200px 350px;
+  background-position:
+    0 0,
+    0 0,
+    100px 180px,
+    100px 180px,
+    0 0,
+    102px 180px;
+}

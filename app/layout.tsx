@@ -1,13 +1,12 @@
 import type { Metadata } from 'next';
-import { Lato } from 'next/font/google';
+import { Lato, Outfit } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer';
 
-const lato = Lato({
+const lato = Outfit({
   subsets: ['latin'],
   style: 'normal',
-  weight: ['100', '300', '400', '700', '900'],
 });
 
 export const metadata: Metadata = {
