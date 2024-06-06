@@ -1,5 +1,7 @@
 import Hero from '@/components/Hero/Hero';
 import Panel from '@/components/Info/Panel';
+import Services from '@/components/Services/Services';
+import Testimonials from '@/components/Testimonials/Testimonials';
 import WhyUs from '@/components/WhyUs/WhyUs';
 
 import CallToAction from '@/components/reusable/CallToAction';
@@ -16,6 +18,9 @@ export default function Home() {
         link="/kontakt"
         linkText="Zadzwoń Teraz"
       />
+      <Services />
+      <Testimonials />
+      <div className="h-screen"></div>
     </main>
   );
 }

@@ -25,3 +25,9 @@
     0 0,
     102px 180px;
 }
+
+.bgDotted {
+  background-color: #eee;
+  background-image: radial-gradient(#c2c2c270 3px, #eee 1.55px);
+  background-size: 25px 25px;
+}

@@ -21,7 +21,7 @@ const AppearFromBottom = ({ children }: any) => {
         },
       }}
       animate={IsInView ? 'visible' : 'hidden'}
-      transition={{ duration: 0.35, ease: 'easeInOut', delay: 0.4 }}
+      transition={{ duration: 0.35, ease: 'easeInOut', delay: 0.1 }}
     >
       {children}
     </motion.div>
