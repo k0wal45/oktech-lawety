@@ -27,7 +27,7 @@ const Testimonials = () => {
       </p>
       <div className="flex flex-col items-center justify-center gap-6 lg:flex-row">
         {data.map((item: Opinion, index: number) => (
-          <TestimonialItem stars={item.stars} name={item.name} opinion={item.opinion} />
+          <TestimonialItem stars={item.stars} name={item.name} opinion={item.opinion} key={index} />
         ))}
       </div>
     </section>

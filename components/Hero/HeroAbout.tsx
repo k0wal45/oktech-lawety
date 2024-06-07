@@ -13,8 +13,8 @@ const HeroAbout = () => {
       <h4 className="max-w-2xl text-5xl font-bold leading-[1.3]">Wynajem autolawety w Katowicach</h4>
 
       <Image
-        width={800}
-        height={600}
+        width={1000}
+        height={700}
         src="/img/laweta8.JPEG"
         alt=""
         className="z-10 max-h-[35rem] w-[64rem] rounded-xl object-cover"
