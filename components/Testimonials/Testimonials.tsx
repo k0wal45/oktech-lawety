@@ -18,7 +18,7 @@ export interface Opinion {
 
 const Testimonials = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-6 bg-slate-950 p-4 text-center text-white lg:py-24">
+    <section className="flex flex-col items-center justify-center gap-6 bg-slate-950 p-4 py-24 text-center text-white">
       <p className="max-w-2xl text-lg font-black uppercase tracking-widest text-primary">Opinie klientów</p>
       <h4 className="max-w-2xl text-5xl font-bold leading-[1.3]">Co ludzie o nas mówią?</h4>
       <p className="my-4 max-w-2xl text-xl leading-normal text-neutral-400 lg:text-2xl">

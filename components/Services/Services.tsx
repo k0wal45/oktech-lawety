@@ -3,7 +3,9 @@ import classes from '../backgrounds.module.css';
 
 const Services = () => {
   return (
-    <section className={classes.bgDotted + ' flex flex-col items-center justify-center gap-6 p-4 py-24 text-center'}>
+    <section
+      className={classes.bgDotted + ' flex flex-col items-center justify-center gap-6 bg-fixed p-4 py-24 text-center'}
+    >
       <p className="max-w-5xl text-lg font-black uppercase tracking-widest text-neutral-600">Nasze usługi</p>
       <h4 className="max-w-5xl text-5xl font-bold leading-[1.3]">Wynajem lawety w Katowicach i na Śląsku</h4>
       <p className="my-4 max-w-5xl text-xl leading-normal text-neutral-600 lg:text-2xl">

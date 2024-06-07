@@ -1,3 +1,5 @@
+import CallToContact from '@/components/CallToContact';
+import FAQ from '@/components/FAQ/FAQ';
 import Hero from '@/components/Hero/Hero';
 import Panel from '@/components/Info/Panel';
 import Services from '@/components/Services/Services';
@@ -20,7 +22,8 @@ export default function Home() {
       />
       <Services />
       <Testimonials />
-      <div className="h-screen"></div>
+      <FAQ />
+      <CallToContact />
     </main>
   );
 }

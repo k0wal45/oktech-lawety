@@ -31,14 +31,12 @@ const CallToAction = ({
       <AppearFromRight>
         <h3 className="max-w-4xl text-5xl font-bold leading-[1.3]">{title}</h3>
       </AppearFromRight>
-      <AppearFromLeft>
-        <Link
-          href={link}
-          className="z-20 rounded-md bg-white p-4 px-6 font-semibold text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none lg:text-xl"
-        >
-          {linkText}
-        </Link>
-      </AppearFromLeft>
+      <Link
+        href={link}
+        className="z-20 rounded-md bg-white p-4 px-6 font-semibold text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none lg:text-xl"
+      >
+        {linkText}
+      </Link>
     </section>
   );
 };
