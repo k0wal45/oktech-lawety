@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
-const colors = ['laweta2.jpg', 'laweta1.JPEG', 'laweta3.JPEG', 'laweta4.JPEG'];
+const colors = ['laweta7.jpg', 'laweta1.jpg', 'laweta6.jpg', 'laweta9.jpg'];
 const delay = 6500;
 
 function Slideshow() {

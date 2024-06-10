@@ -21,7 +21,7 @@ const CallToAction = ({
       <Image
         width={1080}
         height={800}
-        src="/img/laweta2.jpg"
+        src="/img/laweta7.jpg"
         alt="Laweta zdjęcie"
         className="absolute left-0 top-0 z-[-1] h-full w-full object-cover brightness-50"
       />

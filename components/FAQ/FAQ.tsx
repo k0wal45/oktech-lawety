@@ -45,15 +45,15 @@ interface FAQElement {
 const directionOfAppear = (index: number, item: FAQElement) => {
   if (index % 2 === 0) {
     return (
-      <AppearFromLeft>
-        <FAQItem question={item.question} answer={item.answer} key={index} />
+      <AppearFromLeft key={index}>
+        <FAQItem question={item.question} answer={item.answer} />
       </AppearFromLeft>
     );
   }
 
   return (
-    <AppearFromRight>
-      <FAQItem question={item.question} answer={item.answer} key={index} />
+    <AppearFromRight key={index}>
+      <FAQItem question={item.question} answer={item.answer} />
     </AppearFromRight>
   );
 };

@@ -9,7 +9,7 @@ const HeroOffer = () => {
       <Image
         width={1080}
         height={600}
-        src="/img/laweta1.JPEG"
+        src="/img/laweta9.jpg"
         alt="Zdjęcie lawety"
         className="absolute left-0 top-0 z-[-1] h-full w-full object-cover brightness-50"
       />

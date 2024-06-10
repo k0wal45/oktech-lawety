@@ -7,9 +7,9 @@ const Services = () => {
       className={classes.bgDotted + ' flex flex-col items-center justify-center gap-6 bg-fixed p-4 py-24 text-center'}
     >
       <p className="max-w-5xl text-lg font-black uppercase tracking-widest text-neutral-600">Nasze usługi</p>
-      <h4 className="max-w-5xl text-5xl font-bold leading-[1.3]">Wynajem lawety w Katowicach i na Śląsku</h4>
+      <h4 className="max-w-5xl text-5xl font-bold leading-[1.3]">Wynajem autolawety w Katowicach i na Śląsku</h4>
       <p className="my-4 max-w-5xl text-xl leading-normal text-neutral-600 lg:text-2xl">
-        Zapewniamy szeroki zakres usług związanych z wynajmem lawety, dostosowanych do Twoich potrzeb. Oferujemy
+        Zapewniamy szeroki zakres usług związanych z wynajmem autolawety, dostosowanych do Twoich potrzeb. Oferujemy
         profesjonalne i niezawodne rozwiązania, które gwarantują bezpieczny i szybki transport pojazdów.
       </p>
       <div className="grid max-w-6xl grid-cols-1 gap-6 lg:grid-cols-6">
@@ -19,9 +19,9 @@ const Services = () => {
           <div className="text-6xl text-primary">
             <FaClock />
           </div>
-          <p className="text-2xl font-bold">Wynajem Lawety na Krótki i Długi Okres</p>
+          <p className="text-2xl font-bold">Wynajem Autolawety na Krótki i Długi Okres</p>
           <p className="text-xl text-neutral-600">
-            Oferujemy wynajem lawety zarówno na krótkie, jak i długie okresy. Niezależnie od Twoich potrzeb, mamy
+            Oferujemy wynajem autolawety zarówno na krótkie, jak i długie okresy. Niezależnie od Twoich potrzeb, mamy
             elastyczne opcje wynajmu.
           </p>
         </div>
@@ -32,10 +32,10 @@ const Services = () => {
           <div className="text-6xl">
             <FaPhoneAlt />
           </div>
-          <p className="text-2xl font-bold">Całodobowy Wynajem Lawety</p>
+          <p className="text-2xl font-bold">Całodobowy Wynajem Autolawety</p>
           <p className="text-xl text-neutral-600">
-            Nasze usługi wynajmu lawety są dostępne 24/7, aby zapewnić Ci pomoc w każdej sytuacji, niezależnie od pory
-            dnia.
+            Nasze usługi wynajmu autolawety są dostępne 24/7, aby zapewnić Ci pomoc w każdej sytuacji, niezależnie od
+            pory dnia.
           </p>
         </div>
 
@@ -60,8 +60,8 @@ const Services = () => {
           </div>
           <p className="text-2xl font-bold">Elastyczne Godziny Wynajmu</p>
           <p className="text-xl text-neutral-600">
-            Oferujemy elastyczne godziny wynajmu, aby dopasować się do Twojego harmonogramu. Możesz wynająć lawetę na
-            tyle czasu, ile potrzebujesz.
+            Oferujemy elastyczne godziny wynajmu, aby dopasować się do Twojego harmonogramu. Możesz wynająć autolawetę
+            na tyle czasu, ile potrzebujesz.
           </p>
         </div>
 

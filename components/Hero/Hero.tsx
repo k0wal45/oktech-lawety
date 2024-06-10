@@ -10,13 +10,13 @@ const Hero = () => {
       <Slideshow />
       <Reveal>
         <div className="my-12 flex w-full max-w-6xl flex-col items-start justify-center gap-8">
-          <p className="text-xl font-black uppercase tracking-[10px] text-primary">wypożycz lawetę</p>
+          <p className="text-xl font-black uppercase tracking-[10px] text-primary">wypożycz autolawetę</p>
           <h1 className="text-5xl font-semibold leading-[1.3] lg:max-w-[70%] lg:text-7xl">
-            Wypożyczalnia Lawet - Szybko, Bezpiecznie, Niezawodnie
+            Wypożyczalnia Autolawet - Szybko, Bezpiecznie, Niezawodnie
           </h1>
           <p className="text-xl font-medium leading-normal text-neutral-300 lg:max-w-[70%] lg:text-2xl">
-            Potrzebujesz lawety na już? Nasza wypożyczalnia zapewnia szybki i łatwy wynajem lawety na każdą okazję.
-            Sprawdź nasze oferty!
+            Potrzebujesz autolawety na już? Nasza wypożyczalnia zapewnia szybki i łatwy wynajem autolawety na każdą
+            okazję. Sprawdź nasze oferty!
           </p>
           <div className="flex gap-8">
             <Link

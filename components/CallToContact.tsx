@@ -10,8 +10,8 @@ const CallToContact = () => {
       }
     >
       <div className="flex flex-col items-start justify-center gap-4">
-        <h6 className="text-5xl font-bold">Potrzebujesz wynająć lawetę?</h6>
-        <p className="text-2xl text-neutral-700">Skontaktuj się już teraz i wynajmij lawetę u nas!</p>
+        <h6 className="text-5xl font-bold">Potrzebujesz wynająć autolawetę?</h6>
+        <p className="text-2xl text-neutral-700">Skontaktuj się już teraz i wynajmij autolawetę u nas!</p>
       </div>
 
       <Link

@@ -9,7 +9,7 @@ const Panel = () => {
     <section
       className={
         classes.bgGradient +
-        ' flex min-h-[15vh] w-full flex-col items-center justify-around gap-12 overflow-y-hidden p-4 px-4 py-12 text-neutral-900 lg:flex-row lg:py-4 2xl:px-64'
+        ' flex min-h-[15vh] w-full flex-col items-center justify-around gap-12 p-4 px-4 py-12 text-neutral-900 lg:flex-row lg:py-4 2xl:px-64'
       }
     >
       <AppearFromLeft>

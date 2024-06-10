@@ -15,7 +15,7 @@ const HeroAbout = () => {
       <Image
         width={1000}
         height={700}
-        src="/img/laweta8.JPEG"
+        src="/img/laweta1.jpg"
         alt=""
         className="z-10 max-h-[35rem] w-[64rem] rounded-xl object-cover"
       />
