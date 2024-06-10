@@ -36,7 +36,7 @@ function Slideshow() {
         {colors.map((photo, index) => (
           <Image
             width={1080}
-            height={1500}
+            height={1900}
             alt="Laweta do przewożenia aut"
             src={'/img/' + photo}
             className="inline-block h-full w-full object-cover"
