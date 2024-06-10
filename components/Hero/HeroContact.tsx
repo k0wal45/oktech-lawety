@@ -17,7 +17,7 @@ const HeroContact = () => {
         <Image
           width={800}
           height={1000}
-          src="/img/laweta4.JPEG"
+          src="/img/laweta12.jpg"
           alt="Autolaweta Katowice"
           className="max-w-2xl flex-1 object-cover"
         />
