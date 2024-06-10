@@ -185,7 +185,7 @@ const Form = () => {
   return (
     <Fragment>
       <form
-        className="flex w-[90vw] flex-1 flex-col rounded-l-xl bg-white p-4 text-start shadow-lg lg:w-[30rem]"
+        className="flex w-[90vw] flex-1 flex-col rounded-l-xl bg-white p-4 text-start shadow-lg lg:w-[30rem] lg:p-12"
         onSubmit={handleSubmit}
         ref={form}
       >

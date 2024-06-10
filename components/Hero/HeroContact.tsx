@@ -19,7 +19,7 @@ const HeroContact = () => {
           height={1000}
           src="/img/laweta12.jpg"
           alt="Autolaweta Katowice"
-          className="max-w-2xl flex-1 object-cover"
+          className="hidden w-[36rem] flex-1 object-cover lg:block"
         />
       </div>
     </section>
