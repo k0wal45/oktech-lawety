@@ -8,6 +8,18 @@ const data = [
       'Gorąco polecam. Laweta bardzo prosta w obsłudze. Kontakt z wynajmującym miły i bezproblemowy. Wszystko zostało dokładnie wytłumaczone więc nie miałam problemów z użytkowaniem lawety. Cena również konkurencyjna. Mam nadzieję że nie będę musiała więcej z niej korzystać:-) ale jeśli zajdzie jednak taka potrzeba, na pewno zgłoszę się do Oktech',
     name: 'Małgorzata Budzalewicz',
   },
+  {
+    stars: 5,
+    opinion:
+      'Profesjonalizm i dostępność 24/7. Potrzebowałem autolawety w nagłym przypadku i ta wypożyczalnia nie zawiodła. Są dostępni 24/7, co jest ogromnym plusem. Samochód dotarł na miejsce szybko i bez żadnych problemów. Polecam każdemu!',
+    name: 'Jakub Muras',
+  },
+  {
+    stars: 5,
+    opinion:
+      'Niezawodność i bezpieczeństwo. Autolaweta była w świetnym stanie i doskonale wyposażona. Proces wynajmu był szybki i bezproblemowy. Czułem się bezpiecznie, wiedząc, że pojazd jest w dobrych rękach. Polecam każdemu, kto potrzebuje autolawety.',
+    name: 'Michał Jeziorski',
+  },
 ];
 
 export interface Opinion {
