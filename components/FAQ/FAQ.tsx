@@ -8,32 +8,28 @@ const data = [
   {
     question: 'Jaka laweta jest w ofercie?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ipsam doloribus minus iusto, at iste, vero esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+      'W ofercie dostępny jest Citroen Jumper, manualna skrzynia biegów, 3 osobowy, ładowność 1400kg, Długość najazdu 520cm',
   },
   {
     question: 'Czy jest możliwość otrzymania faktury?',
-    answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ipsam doloribus minus iusto, at iste, vero esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+    answer: 'Jak najbardziej, wystawiamy faktury VAT, jeżeli klient tego wymaga',
   },
   {
     question: 'Jakie jest spalanie lawety?',
-    answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing eo, at iste, vero esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+    answer: 'W zależności od prędkości, średnia w granicach 9L/100KM',
   },
   {
     question: 'Czy mogę jechać za granicę?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ipsam doloribus minus iusto, at iste, vero esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+      'Tak, jak najbardziej naszą lawetą można jechać za granicę. Posiadamy odpowiednie ubezpieczenie oraz zieloną kartę.',
   },
   {
     question: 'Na jak długo mogę wypożyczyć lawetę',
-    answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum io esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+    answer: 'W zależności od potrzeb od 3 godzin w górę.',
   },
   {
     question: 'Czy mogę jeździć lawetą z kategorią B?',
-    answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ipusto, at iste, vero esse repellat beatae, voluptatum quibusdam sit quia impedit pariatur tempora nostrum culpa illo blanditiis.',
+    answer: 'Jak najbardziej DMC autolawety do 3.5 tony, więc można nią jeździć z prawem jazdy kategorii B.',
   },
 ];
 
